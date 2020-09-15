@@ -1,0 +1,22 @@
+header {
+  @include flex(flex-start, center, row);
+  font-size: 5rem;
+  height: 5vh;
+  background: #121820;
+  .hamburger {
+    color: white;
+    margin: 0 1rem 0 1rem;
+  }
+  img {
+    transform: translateY(+10%);
+    max-height: 3vh;
+    margin-right: 5vw;
+  }
+  form {
+    @include flex(space-between, center, row);
+  }
+}
+
+.search-input {
+  width: 50vw;
+}

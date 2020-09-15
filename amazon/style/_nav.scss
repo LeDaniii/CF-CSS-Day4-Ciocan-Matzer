@@ -1,0 +1,11 @@
+nav {
+  @include flex(space-between, center, row);
+  background: #232f3e;
+  font-size: 2.2rem;
+  ul {
+    @include flex(space-between, center, row);
+  }
+  li {
+    margin: 0 3rem 0 3rem;
+  }
+}
