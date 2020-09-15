@@ -1,9 +1,41 @@
 section {
-  @include flex(flex-start, center, row);
+  height: 100vh;
+  width: 70vw;
+  margin: auto;
+  @include flex(space-around, center, row);
   .card1 {
-    background: yellowgreen;
-    max-width: 20vw;
-    max-height: 50vh;
-    @include flex(flex-start, center, column);
+    width: 30rem;
+    height: 50rem;
+    font-size: 2rem;
+    border: 1px black solid;
   }
+  .card-embedded {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    @include flex(center, center, column);
+    // flex-wrap: wrap;
+    background: rgb(26, 133, 195);
+    border: 3px black solid;
+  }
+}
+
+.card1 {
+  background-color: brown;
+}
+
+.shopByCategory {
+  max-height: 45%;
+  max-width: 45%;
+  margin: auto;
+  background-color: honeydew;
+  p {
+    font-size: 0.8rem;
+    // display: inline-block;
+    text-align: center;
+  }
+}
+
+.shopByCategory2 img {
+  max-width: 100%;
 }
