@@ -1,0 +1,9 @@
+section {
+  @include flex(flex-start, center, row);
+  .card1 {
+    background: yellowgreen;
+    max-width: 20vw;
+    max-height: 50vh;
+    @include flex(flex-start, center, column);
+  }
+}
