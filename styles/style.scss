@@ -66,6 +66,9 @@ main {
   #first-word {
     display: none;
   }
+  .title {
+    color: green;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -75,5 +78,8 @@ main {
   }
   #third-word {
     display: none;
+  }
+  .title {
+    color: crimson;
   }
 }
