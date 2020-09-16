@@ -54,17 +54,17 @@ main {
 /* Media queries */
 @media screen and (min-width: 1024px) {
   .picture-card {
-    flex-basis: 27%;
-  }
+    flex-basis: 27%; /* allows 3 cards on a row
+  } */
 }
 
 @media screen and (max-width: 1023px) {
   .picture-card {
-    flex-basis: 40%;
+    flex-basis: 40%;  /* allows 2 cards on a row */
     color: darkgray;
   }
   #first-word {
-    display: none;
+    display: none; /* removes first word from the title */
   }
   .title {
     color: green;
@@ -73,11 +73,11 @@ main {
 
 @media screen and (max-width: 767px) {
   .picture-card {
-    flex-basis: 80%;
+    flex-basis: 80%; /* allows 1 card on a row */
     color: darksalmon;
   }
   #third-word {
-    display: none;
+    display: none; /* removes third row from the title */
   }
   .title {
     color: crimson;

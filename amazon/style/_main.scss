@@ -13,7 +13,7 @@ section {
     width: 90%;
     height: 90%;
     margin: auto;
-    @include flex(center, center, column);
+    @include flex(center, center, row wrap);
     // flex-wrap: wrap;
     background: rgb(26, 133, 195);
     border: 3px black solid;

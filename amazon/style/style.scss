@@ -1,8 +1,8 @@
-@mixin flex($justify, $align, $direction) {
+@mixin flex($justify, $align, $flow) {
   display: flex;
   justify-content: $justify;
   align-items: $align;
-  flex-direction: $direction;
+  flex-flow: $flow;
 }
 
 @import "./global";

@@ -46,8 +46,8 @@ header {
           align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
   font-size: 5rem;
   height: 5vh;
   background: #121820;
@@ -77,8 +77,8 @@ header form {
           align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
 }
 
 .search-input {
@@ -97,8 +97,8 @@ nav {
           align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
   background: #232f3e;
   font-size: 2.2rem;
 }
@@ -115,8 +115,8 @@ nav ul {
           align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
 }
 
 nav li {
@@ -137,8 +137,8 @@ section {
           align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
 }
 
 section .card1 {
@@ -161,10 +161,10 @@ section .card-embedded {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   background: #1a85c3;
   border: 3px black solid;
 }
